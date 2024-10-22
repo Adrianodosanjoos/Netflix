@@ -26,6 +26,7 @@
    float: right;
    cursor: pointer;
    transition: 0.4s;
+   text-decoration: none;
 }
 
 #botao-entra:hover {
@@ -63,6 +64,8 @@ h1 {
 input {
     width: 500px;
     padding-left: 10px;
+    color: black;
+    font-size: 20px;
 
 }
 
@@ -74,6 +77,8 @@ input {
     font-size: 30px;
     cursor: pointer;
     transition: all 0.2s;
+    text-decoration: none;
+    padding: 10px 0 0 40px;
    
     
 }
@@ -85,6 +90,7 @@ input {
 #botao-email img {
    width: 60px;
    padding-left: 30px;
+   
   
 
 }
@@ -184,6 +190,8 @@ h2 {
         background-color: #e50914;
         border: 0;
         font-size: 20px;  
+        padding: 5px 0 0 0 ;
+       
     }
 
     #botao-email img {

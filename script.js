@@ -3,7 +3,7 @@ let menu = document.getElementById("pergunta")
 let imagem = document.getElementById("imagem-pergunta")
 
 
-function abacate() {
+function girar() {
   if   (menu.style.display == "none") {
     menu.style.display = "block"
     imagem.id = "imagem-pergunta-girar"
@@ -14,4 +14,4 @@ function abacate() {
   }
 }
 
-botao.addEventListener("click", abacate)
+botao.addEventListener("click", girar)
