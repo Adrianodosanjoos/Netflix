@@ -223,8 +223,32 @@ h2 {
     }
 
     #botao-email img {
+
         width: 25px;
-       
+        
     }
 
+
+}
+
+@media screen and (max-width: 385px) {
+      
+ 
+
+    
+
+    #botao-email {
+      
+            font-size: 80 rem;
+            
+        }
+
+        #botao-email img {
+            
+              margin-top: 15px;
+             width: 15px;
+            font-size: 10px;
+           
+            
+        }
 }
