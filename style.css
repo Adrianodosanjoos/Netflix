@@ -214,3 +214,17 @@ h2 {
     }
 
 }
+
+@media screen and (max-width: 400px){
+    #botao-email {
+        font-size: 16px;
+       
+
+    }
+
+    #botao-email img {
+        width: 25px;
+       
+    }
+
+}
